@@ -2,6 +2,7 @@
   "name": "assignment9",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://namkhanhnc123.github.io/assignment10",
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
     "@testing-library/jest-dom": "^5.17.0",
