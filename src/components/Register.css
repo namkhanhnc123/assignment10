@@ -1,0 +1,47 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #d4fc79, #96e6a1); /* Gradient nền tươi sáng */
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #2d2d2d; /* Màu chữ đậm hơn */
+    font-family: Arial, sans-serif;
+    font-size: 1.8rem;
+}
+
+.register-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng cho input */
+}
+
+.register-container input:focus {
+    border-color: #28a745; /* Đổi màu viền khi focus */
+    outline: none;
+}
+
+.register-container button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Màu xanh lá cho nút */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bo tròn nút */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s; /* Hiệu ứng màu và phóng to */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng cho nút */
+}
+
+.register-container button:hover {
+    background-color: #218838; /* Màu đậm hơn khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
